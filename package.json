@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "test": "mocha **/*.spec.js",
-    "build:readme": "jsdoc2md --heading-depth=3 --template README.tpl.md index.js > README.md",
+    "build:readme": "jsdoc2md --heading-depth=4 --template README.tpl.md index.js > README.md",
     "format": "prettier --write --tab-width 4 \"**/*.js\"",
     "prepublish": "npm run format && npm run test && npm run build:readme",
     "precommit": "npm run prepublish"

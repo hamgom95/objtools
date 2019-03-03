@@ -1,10 +1,10 @@
-# @hamgom95/objtools
+## @hamgom95/objtools
 
 Object helper methods.
 
-## API Documentation
+### API Documentation
 
-### Functions
+#### Functions
 
 <dl>
 <dt><a href="#setDefault">setDefault(key, defaultValue)</a> ⇒</dt>
@@ -23,7 +23,7 @@ Object helper methods.
 
 <a name="setDefault"></a>
 
-### setDefault(key, defaultValue) ⇒
+#### setDefault(key, defaultValue) ⇒
 Get value for key in object or set default.
 
 **Kind**: global function  
@@ -36,7 +36,7 @@ Get value for key in object or set default.
 
 <a name="getPath"></a>
 
-### getPath(...levels) ⇒
+#### getPath(...levels) ⇒
 Get value at path in object.
 
 **Kind**: global function  
@@ -48,7 +48,7 @@ Get value at path in object.
 
 <a name="setPath"></a>
 
-### setPath(value, ...levels) ⇒
+#### setPath(value, ...levels) ⇒
 Set value at path in object.
 
 **Kind**: global function  
@@ -61,7 +61,7 @@ Set value at path in object.
 
 <a name="register"></a>
 
-### register(cls) ⇒
+#### register(cls) ⇒
 Register object methods to cls.
 
 **Kind**: global function  

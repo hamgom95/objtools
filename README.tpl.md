@@ -1,7 +1,7 @@
-# @hamgom95/objtools
+## @hamgom95/objtools
 
 Object helper methods.
 
-## API Documentation
+### API Documentation
 
 {{>main}}
